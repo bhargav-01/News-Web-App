@@ -1,0 +1,163 @@
+
+.login-back
+{
+    top:0px;
+    left: 0px;
+    z-index: 1500;
+    background: #f8f9fa;
+    position: fixed;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+}
+
+
+.login {
+    color: white;
+    padding: 50px;
+    background: #2929efd1;
+    box-shadow: 2px 2px 20px 3px #052aec;
+    font-weight: 500;
+    border-radius: 50px;
+    font-family: system-ui;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signIn {
+    color: white;
+    padding: 50px;
+    background: #2929efd1;
+    box-shadow: 2px 2px 20px 3px #052aec;
+    height: 400px;
+    font-weight: 500;
+    border-radius: 50px;
+    font-family: system-ui;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header{
+    font-family: 'Lobster';
+    text-align: center;
+    font-size: 2.7rem;
+}
+.label{
+    font-size: 1rem;
+}
+
+.canvas{
+    display: flex;
+    text-align: center;
+    z-index: 10000;
+    color: white;
+    top: 0px;
+    height: -webkit-fill-available;
+    left: 0px;
+    position: absolute;
+    width: -webkit-fill-available;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo{
+    text-align: center;
+    z-index: 10000;
+    color: white;
+    font-family: Lobster, cursive;
+    text-decoration: none;
+    color: rgb(68, 62, 162);
+    font-size: 3.5rem;
+    top: 0px;
+    left: 0px;
+    text-shadow: 3px 3px 5px #445af1;
+    position: absolute;
+    width: -webkit-fill-available;
+}
+
+@media (max-width: 768px) {
+    .login{
+        width: -webkit-fill-available;
+        border-radius: 10px;
+        height:  -webkit-fill-available;
+        margin: 100px 10px 10px 10px ;
+    }
+    .signIn
+    {
+        width: -webkit-fill-available;
+        border-radius: 10px;
+        height: 450px;
+        margin: 10px;
+    }
+
+    img{
+        visibility: hidden;
+    }
+}
+
+
+
+@media (min-width: 768px) {
+    .login{
+        width: 450px;
+    }
+    .signIn{
+        width: 450px;
+        height: 450px;
+    }
+}
+
+@media (min-width: 992px) {
+    .login{
+        width: 450px;
+        height: 550px;
+    }
+    .signIn{
+        width: 450px;
+        height: 450px;
+    }
+}
+
+@media (min-width: 992px) {
+    .login{
+        width: 450px;
+        height: 550px;
+    }
+    .signIn{
+        width: 450px;
+        height: 450px;
+    }
+}
+
+
+
+.btn-submit{
+    color: white;
+    border-radius: 10px;
+    margin: 8px;
+    padding: 8px;
+    background: #1003d8;
+    /* width: -webkit-fill-available; */
+}
+.formgroup
+{
+    margin-top: 10px;
+}
+
+.loginIcon{
+    color: #d1cffa;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
